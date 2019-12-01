@@ -83,7 +83,7 @@ int main(){
   vector<int> result = merge_sort( *data );
   elapsed_time = ( clock() - start ) / (double) CLOCKS_PER_SEC;
   
-  cout << endl << "Elapsed_Time for insertion_sort( " << SIZE << " ) :" << elapsed_time;
+  cout << endl << "Elapsed_Time for merge_sort( " << SIZE << " ) :" << elapsed_time;
   return 0;
 }
 
