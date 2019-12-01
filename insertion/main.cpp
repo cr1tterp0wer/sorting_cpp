@@ -7,7 +7,7 @@ using std::cout;
 using std::endl;
 using std::clock_t;
 
-const int SIZE = 150000;
+const int SIZE = 300000;
 
 void build_vector( const int& size, vector<int> * v ){
 
